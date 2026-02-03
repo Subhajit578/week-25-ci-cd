@@ -21,5 +21,5 @@ import "dotenv/config";
         id : user.id
     })
  })
- app.listen(3001)
+ app.listen(3002)
 
