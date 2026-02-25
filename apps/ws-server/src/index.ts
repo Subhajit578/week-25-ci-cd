@@ -9,4 +9,5 @@ wss.on('connection' , async function  connection(socket) {
         }
     })
     console.log(user)
+    socket.send("Hi There from Server" + JSON.stringify(user))
 })
